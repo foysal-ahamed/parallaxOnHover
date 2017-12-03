@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+a:link a:active,
+a:visited,
+	{
+	text-decoration: none !important;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+}
+
+.bg-1 {
+
+	background-image: url(./assets/img/bg-3.png);
+}
+
+.bg-2 {
+
+	background-image: url(./assets/img/bg-14.jpg);
+}
+
+.bg-3 {
+
+	background-image: url(./assets/img/bg-16.jpg);
+}
+
+.item-bg {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center
+}
+
+.section-bg {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.section-bg {
+	overflow: hidden;
+}
+
+.fixed-bg {
+	position: absolute !important;
+	background-size: cover;
+	width: 150% !important;
+	height: 150% !important;
+	left: -10% !important;
+	top: -10% !important;
+}
